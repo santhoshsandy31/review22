@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="author" content="VIJAY THAPA" />
+        <meta name="description" content="HOUSE RENTAL SYSTEM" />
+        <meta name="keywords" content="Give Your Keywords for SEO" />
+        
+        <title>HOUSE RENTAL SYSTEM</title>
+        <!--ADING CSS HERE-->
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        
+        <!--Resource Files for Slider-->
+        <!-- Start WOWSlider.com HEAD section -->
+        <link rel="stylesheet" type="text/css" href="assets/slider/engine1/style.css" />
+        <script type="text/javascript" src="assets/slider/engine1/jquery.js"></script>
+        <!-- End WOWSlider.com HEAD section -->
+    </head>
+    
+    <body>
+        <!--Header Starts HERE-->
+        <header class="header">
+            <div class="wrapper">
+                <h1>PARADISE HOUSE</h1>
+            </div>
+            
+        </header>
+        <!--Header Ends HERE-->
+        
+        <!--Menu Starts HERE-->
+        <nav class="menu">
+            <div class="wrapper">
+                <ul>
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="about.html"><li>About Us</li></a>
+                    <a href="#"><li>Houses</li></a>
+                    <a href="contact.html"><li>Contact Us</li></a>
+                    <a href="login.html"><li>Log In</li></a>
+                </ul>
+            </div>
+        </nav>
+        <!--Menu Ends HERE-->
+        
+        <!--SLIDER STARTS HERE-->
+        <div class="slider">
+            <div class="wrapper">
+                <!-- Start WOWSlider.com BODY section -->
+                <div id="wowslider-container1">
+                <div class="ws_images"><ul>
+                		<li><img src="assets/slider/data1/images/house03.jpg" alt="House Rental System" title="House Rental System" id="wows1_0"/></li>
+                		<li><a href="http://wowslider.net"><img src="assets/slider/data1/images/pexelsphoto186077.jpg" alt="jquery carousel" title="Luxury Houses for Rent" id="wows1_1"/></a></li>
+                		<li><img src="assets/slider/data1/images/39f6e0639465c7e01eaa79e26ada2a48.jpg" alt="Rent Houses at Affordable Price" title="Rent Houses at Affordable Price" id="wows1_2"/></li>
+                	</ul></div>
+                	<div class="ws_bullets"><div>
+                		<a href="#" title="House Rental System"><span><img src="assets/slider/data1/tooltips/house03.jpg" alt="House Rental System"/>1</span></a>
+                		<a href="#" title="Luxury Houses for Rent"><span><img src="assets/slider/data1/tooltips/pexelsphoto186077.jpg" alt="Luxury Houses for Rent"/>2</span></a>
+                		<a href="#" title="Rent Houses at Affordable Price"><span><img src="assets/slider/data1/tooltips/39f6e0639465c7e01eaa79e26ada2a48.jpg" alt="Rent Houses at Affordable Price"/>3</span></a>
+                	</div></div>
+                <div class="ws_shadow"></div>
+                </div>	
+                <script type="text/javascript" src="assets/slider/engine1/wowslider.js"></script>
+                <script type="text/javascript" src="assets/slider/engine1/script.js"></script>
+                <!-- End WOWSlider.com BODY section -->
+            </div>
+        </div>
+        <!--SLIDER ENDS HERE-->
+        
+        <!--Main Body Starts HERE-->
+        <div class="main">
+            <div class="wrapper">
+                <h3>Recently Added</h3>
+                
+                <!--Displaying Recently Added Houses in Boxes-->
+                <div class="clearfix">
+                    
+                    <div class="houses">
+                        <img src="https://wallpaperaccess.com/full/3060214.jpg" />
+                        <span class="house-title">Som Bahadur House</span><br />
+                        <span class="house-added">Added Date:01-03-2017</span><br />
+                        <span class="house-location">Location: gandhinagar01,tirunelveli</span><br />
+                        <a href="book.html">
+                            <button type="button" class="btn-book" >Book House</button>
+                        </a>
+                    </div>
+                    
+                    <div class="houses">
+                        <img src="https://wallpaperaccess.com/full/3434330.jpg" />
+                        <span class="house-title">Ram Bahadur House</span><br />
+                        <span class="house-added">Added Date:01-03-2017</span><br />
+                        <span class="house-location">Location: kovaipudhur coimbatore </span><br />
+                        <button type="button" class="btn-book" >Book House</button>
+                    </div>
+                    
+                    <div class="houses">
+                        <img src="https://images.unsplash.com/photo-1591474200742-8e512e6f98f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGx1eHVyeSUyMGhvdXNlfGVufDB8fDB8fA%3D%3D&w=1000&q=80" />
+                        <span class="house-title">Shyam Bahadur House</span><br />
+                        <span class="house-added">Added Date:01-03-2017</span><br />
+                        <span class="house-location">Location: vikkasnagar,salem</span><br />
+                        <button type="button" class="btn-book" >Book House</button>
+                    </div>
+                    
+                    <div class="houses">
+                        <img src="data:image/jpeg;base64,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" />
+                        <span class="house-title">Hari Bahadur House</span><br />
+                        <span class="house-added">Added Date:01-03-2017</span><br />
+                        <span class="house-location">Location: fyzalstreet,dubai</span><br />
+                        <button type="button" class="btn-book" >Book House</button>
+                    </div>
+                    <div class="houses">
+                        <img src="https://cdn.dribbble.com/users/6265595/screenshots/14476305/media/b372c12b74f84e584b68ee141c5e9224.jpg?compress=1&resize=400x300&vertical=top" />
+                        <span class="house-title">Kumari Bahadur House</span><br />
+                        <span class="house-added">Added Date:01-03-2017</span><br />
+                        <span class="house-location">Location: keelapalayam,tenkai</span><br />
+                        <button type="button" class="btn-book" >Book House</button>
+                    </div>
+                    
+                </div>
+                
+                <h3>Luxurious Houses</h3>
+                <!--Displaying Luxurious Houses in Boxes-->
+                <div class="clearfix">
+                    
+                    <div class="houses">
+                        <img src="https://wallpapers.com/images/hd/modern-minimalist-concrete-home-garage-xli40wifyn7vvk2e.jpg" />
+                        <span class="house-title">Som Bahadur House</span><br />
+                        <span class="house-added">Added Date:01-03-2017</span><br />
+                        <span class="house-location">Location: fyzalstreet,dubai</span><br />
+                        <button type="button" class="btn-book" >Book House</button>
+                    </div>
+                    
+                    <div class="houses">
+                        <img src="https://trumpwallpapers.com/wp-content/uploads/Real-Estate-Wallpaper-03-1440x940-1.jpg" />
+                        <span class="house-title">Ram Bahadur House</span><br />
+                        <span class="house-added">Added Date:01-03-2017</span><br />
+                        <span class="house-location">Location: fyzalstreet,dubai</span><br />
+                        <button type="button" class="btn-book" >Book House</button>
+                    </div>
+                    
+                    
+                    <div class="houses">
+                        <img src="https://keralahomedesignz.com/wp-content/uploads/2021/10/a-538.jpg" />
+                        <span class="house-title">Shyam Bahadur House</span><br />
+                        <span class="house-added">Added Date:01-03-2017</span><br />
+                        <span class="house-location">Location: fyzalstreet,dubai</span><br />
+                        <button type="button" class="btn-book" >Book House</button>
+                    </div>
+                    
+                    <div class="houses">
+                        <img src="https://media-cdn.tripadvisor.com/media/photo-m/1280/1d/7d/ba/0b/ideal-weekend-getaway.jpg" />
+                        <span class="house-title">Hari Bahadur House</span><br />
+                        <span class="house-added">Added Date:01-03-2017</span><br />
+                        <span class="house-location">Location: fyzalstreet,dubai</span><br />
+                        <button type="button" class="btn-book" >Book House</button>
+                    </div>
+                    <div class="houses">
+                        <img src="https://wallpapers.com/images/hd/beautiful-house-with-gray-roof-ylk1cd8usa9j17zr.jpg" />
+                        <span class="house-title">Kumari Bahadur House</span><br />
+                        <span class="house-added">Added Date:01-03-2017</span><br />
+                        <span class="house-location">Location: fyzalstreet,dubai</span><br />
+                        <button type="button" class="btn-book" >Book House</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!--Main Body Ends HERE-->
+        
+        <!--Footer Starts HERE-->
+        <footer class="footer">
+            <div class="wrapper">
+                <p>&copy; <a href="#">Paradise House </a>. since 2017.</p>
+            </div>
+        </footer>
+        <!--Footer Ends HERE-->
+    </body>
+</html>
